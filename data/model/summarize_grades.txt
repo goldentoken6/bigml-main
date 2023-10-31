@@ -1,0 +1,325 @@
+Data distribution:
+    28.06: 1.30% (1 instance)
+    34.44: 1.30% (1 instance)
+    35.97: 2.60% (2 instances)
+    39.72: 1.30% (1 instance)
+    43.33: 1.30% (1 instance)
+    45.56: 2.60% (2 instances)
+    47.41: 3.90% (3 instances)
+    49.39833: 7.79% (6 instances)
+    50.83: 2.60% (2 instances)
+    52.5: 3.90% (3 instances)
+    55.8325: 5.19% (4 instances)
+    58.055: 2.60% (2 instances)
+    60.975: 2.60% (2 instances)
+    63.332: 6.49% (5 instances)
+    65.21: 5.19% (4 instances)
+    66.66667: 3.90% (3 instances)
+    68.24: 3.90% (3 instances)
+    72.22: 2.60% (2 instances)
+    73.89: 1.30% (1 instance)
+    75.56: 1.30% (1 instance)
+    77.5: 1.30% (1 instance)
+    79.585: 5.19% (4 instances)
+    82.87: 3.90% (3 instances)
+    85.28: 2.60% (2 instances)
+    87.22: 1.30% (1 instance)
+    89.39: 6.49% (5 instances)
+    90.97: 2.60% (2 instances)
+    92.5: 2.60% (2 instances)
+    94.72: 2.60% (2 instances)
+    99.17: 1.30% (1 instance)
+    102.03667: 3.90% (3 instances)
+    108.335: 2.60% (2 instances)
+
+
+Predicted distribution:
+    28.06: 1.30% (1 instance)
+    34.44: 1.30% (1 instance)
+    35.83: 1.30% (1 instance)
+    36.11: 1.30% (1 instance)
+    39.72: 1.30% (1 instance)
+    43.33: 1.30% (1 instance)
+    45.56: 2.60% (2 instances)
+    46.67: 1.30% (1 instance)
+    47.78: 2.60% (2 instances)
+    48.89: 2.60% (2 instances)
+    49.17: 1.30% (1 instance)
+    49.44: 1.30% (1 instance)
+    50: 2.60% (2 instances)
+    50.83: 2.60% (2 instances)
+    51.67: 1.30% (1 instance)
+    52.5: 1.30% (1 instance)
+    53.33: 1.30% (1 instance)
+    55: 1.30% (1 instance)
+    55.83: 1.30% (1 instance)
+    56.39: 1.30% (1 instance)
+    57.78: 1.30% (1 instance)
+    58.33: 1.30% (1 instance)
+    60.29: 1.30% (1 instance)
+    60.56: 1.30% (1 instance)
+    61.39: 1.30% (1 instance)
+    62.5: 1.30% (1 instance)
+    63.33: 2.60% (2 instances)
+    63.61: 1.30% (1 instance)
+    63.89: 1.30% (1 instance)
+    64.72: 1.30% (1 instance)
+    65.28: 2.60% (2 instances)
+    65.56: 1.30% (1 instance)
+    66.11: 1.30% (1 instance)
+    66.67: 1.30% (1 instance)
+    67.22: 1.30% (1 instance)
+    68.06: 1.30% (1 instance)
+    68.33: 2.60% (2 instances)
+    72.22: 2.60% (2 instances)
+    73.89: 1.30% (1 instance)
+    75.56: 1.30% (1 instance)
+    77.5: 1.30% (1 instance)
+    78.89: 2.60% (2 instances)
+    80: 1.30% (1 instance)
+    80.56: 1.30% (1 instance)
+    82.22: 1.30% (1 instance)
+    83.06: 1.30% (1 instance)
+    83.33: 1.30% (1 instance)
+    85: 1.30% (1 instance)
+    85.56: 1.30% (1 instance)
+    87.22: 1.30% (1 instance)
+    88.89: 2.60% (2 instances)
+    89.17: 1.30% (1 instance)
+    90: 2.60% (2 instances)
+    90.83: 1.30% (1 instance)
+    91.11: 1.30% (1 instance)
+    92.22: 1.30% (1 instance)
+    92.78: 1.30% (1 instance)
+    94.44: 1.30% (1 instance)
+    95: 1.30% (1 instance)
+    99.17: 1.30% (1 instance)
+    101.11: 1.30% (1 instance)
+    102.22: 1.30% (1 instance)
+    102.78: 1.30% (1 instance)
+    107.78: 1.30% (1 instance)
+    108.89: 1.30% (1 instance)
+
+
+Field importance:
+    1. Midterm: 76.70%
+    2. Tutorial: 12.15%
+    3. TakeHome: 7.95%
+    4. Assignment: 3.20%
+
+
+Rules summary:
+
+28.06 : (data 1.30% / prediction 1.30%) Midterm <= 39.69 and TakeHome > 92.685 [Error: 25.65806]
+
+
+34.44 : (data 1.30% / prediction 1.30%) 39.065 < Midterm <= 39.69  and TakeHome <= 92.685 [Error: 19.25854]
+
+
+35.83 : (data 0.00% / prediction 1.30%) 39.69 < Midterm <= 45.94  and TakeHome <= 31.875 [Error: 29.66014]
+
+
+36.11 : (data 0.00% / prediction 1.30%) 45.94 < Midterm <= 75.47  and TakeHome <= 31.875 and Tutorial > 102.275 [Error: 31.384]
+
+
+39.72 : (data 1.30% / prediction 1.30%) 74.06 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and Tutorial > 86.76 [Error: 17.70187]
+
+
+43.33 : (data 1.30% / prediction 1.30%) 40.625 < Midterm <= 60  and 31.875 < TakeHome <= 100.83  and Tutorial > 91.245 and Assignment <= 74.06 [Error: 17.59392]
+
+
+45.56 : (data 2.60% / prediction 2.60%) Midterm <= 75.47
+    · 50.00%: Midterm <= 29.375 and TakeHome <= 92.685 and Tutorial <= 83.145 [Error: 11.69416]
+    · 50.00%: 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and 64.285 < Tutorial <= 67.71  and Assignment > 78.52 [Error: 11.69416]
+
+
+46.67 : (data 0.00% / prediction 1.30%) 40.625 < Midterm <= 60  and 31.875 < TakeHome <= 100.83  and 86.76 < Tutorial <= 91.245  and Assignment <= 74.06 [Error: 17.59392]
+
+
+47.78 : (data 0.00% / prediction 2.60%) Midterm <= 75.47
+    · 50.00%: Midterm <= 29.375 and TakeHome <= 92.685 and Tutorial > 83.145 [Error: 11.69416]
+    · 50.00%: 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and 67.71 < Tutorial <= 75.42  and Assignment > 78.52 [Error: 11.69416]
+
+
+48.89 : (data 0.00% / prediction 2.60%) Midterm <= 75.47
+    · 50.00%: 29.375 < Midterm <= 39.065  and TakeHome <= 92.685 and 70.57 < Tutorial <= 92.845  [Error: 1.47494]
+    · 50.00%: 40.625 < Midterm <= 62.5  and 31.875 < TakeHome <= 100.83  and 86.76 < Tutorial <= 96.205  and Assignment > 82.395 [Error: 5.84708]
+
+
+49.17 : (data 0.00% / prediction 1.30%) 29.375 < Midterm <= 39.065  and TakeHome <= 92.685 and Tutorial > 92.845 [Error: 1.47494]
+
+
+49.44 : (data 0.00% / prediction 1.30%) 45.94 < Midterm <= 75.47  and TakeHome <= 31.875 and 97.39 < Tutorial <= 102.275  [Error: 7.32202]
+
+
+50 : (data 0.00% / prediction 2.60%) 40.625 < Midterm <= 62.5  and 31.875 < TakeHome <= 100.83  and Tutorial > 86.76 and Assignment > 82.395
+    · 50.00%: 40.625 < Midterm <= 62.5  and 31.875 < TakeHome <= 100.83  and 96.205 < Tutorial <= 97.105  and Assignment > 82.395 [Error: 5.84708]
+    · 50.00%: 55.625 < Midterm <= 62.5  and 31.875 < TakeHome <= 100.83  and Tutorial > 97.105 and Assignment > 82.395 [Error: 23.19691]
+
+
+50.83 : (data 2.60% / prediction 2.60%) 39.69 < Midterm <= 75.47 
+    · 50.00%: 45.94 < Midterm <= 75.47  and TakeHome <= 31.875 and 91.09 < Tutorial <= 97.39  [Error: 7.32202]
+    · 50.00%: 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and Tutorial <= 64.285 and Assignment > 78.52 [Error: 13.44706]
+
+
+51.67 : (data 0.00% / prediction 1.30%) 29.375 < Midterm <= 39.065  and TakeHome <= 92.685 and Tutorial <= 70.57 [Error: 7.77904]
+
+
+52.5 : (data 3.90% / prediction 1.30%) 40.625 < Midterm <= 65.63  and 31.875 < TakeHome <= 100.83  and Tutorial <= 46.3 and Assignment <= 78.52 [Error: 17.54124]
+
+
+53.33 : (data 0.00% / prediction 1.30%) 45.94 < Midterm <= 75.47  and TakeHome <= 31.875 and Tutorial <= 91.09 [Error: 10.01828]
+
+
+55 : (data 0.00% / prediction 1.30%) 65.31 < Midterm <= 74.06  and 31.875 < TakeHome <= 100.83  and Tutorial > 88.065 and 82.395 < Assignment <= 91.175  [Error: 17.54124]
+
+
+55.83 : (data 0.00% / prediction 1.30%) 65.63 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and Tutorial <= 46.3 and Assignment <= 78.52 [Error: 17.54124]
+
+
+56.39 : (data 0.00% / prediction 1.30%) 39.69 < Midterm <= 75.47  and TakeHome > 100.83 and Tutorial <= 88.84 [Error: 43.87944]
+
+
+57.78 : (data 0.00% / prediction 1.30%) 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and 82.51 < Tutorial <= 84.92  [Error: 24.86326]
+
+
+58.33 : (data 0.00% / prediction 1.30%) 65.31 < Midterm <= 74.06  and 31.875 < TakeHome <= 100.83  and 86.76 < Tutorial <= 88.065  and 82.395 < Assignment <= 91.175  [Error: 17.54124]
+
+
+60.29 : (data 0.00% / prediction 1.30%) 39.69 < Midterm <= 75.47  [Error: 19.31738]
+
+
+60.56 : (data 0.00% / prediction 1.30%) 40.625 < Midterm <= 48.75  and 31.875 < TakeHome <= 100.83  and 97.105 < Tutorial <= 102.38  and Assignment > 82.395 [Error: 9.38728]
+
+
+61.39 : (data 0.00% / prediction 1.30%) 60 < Midterm <= 74.06  and 31.875 < TakeHome <= 100.83  and Tutorial > 86.76 and Assignment <= 74.06 [Error: 48.83565]
+
+
+62.5 : (data 0.00% / prediction 1.30%) 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and 81.225 < Tutorial <= 82.51  [Error: 24.86326]
+
+
+63.33 : (data 0.00% / prediction 2.60%) 65.31 < Midterm <= 74.06  and 31.875 < TakeHome <= 98.33  and Tutorial > 101.52 and Assignment > 91.175 [Error: 3.48656]
+
+
+63.61 : (data 0.00% / prediction 1.30%) 48.75 < Midterm <= 55.625  and 31.875 < TakeHome <= 100.83  and 97.105 < Tutorial <= 99.065  and Assignment > 82.395 [Error: 1.47494]
+
+
+63.89 : (data 0.00% / prediction 1.30%) 48.75 < Midterm <= 55.625  and 31.875 < TakeHome <= 100.83  and 99.065 < Tutorial <= 102.38  and Assignment > 82.395 [Error: 1.47494]
+
+
+64.72 : (data 0.00% / prediction 1.30%) 39.69 < Midterm <= 75.47  and TakeHome > 100.83 and 88.84 < Tutorial <= 95.865  [Error: 43.87944]
+
+
+65.28 : (data 0.00% / prediction 2.60%) 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83 
+    · 50.00%: 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and 61.81 < Tutorial <= 75.42  and Assignment <= 78.52 [Error: 16.0663]
+    · 50.00%: 65.31 < Midterm <= 74.06  and 31.875 < TakeHome <= 98.33  and 94.345 < Tutorial <= 101.52  and Assignment > 91.175 [Error: 1.47494]
+
+
+65.56 : (data 0.00% / prediction 1.30%) 65.31 < Midterm <= 74.06  and 31.875 < TakeHome <= 98.33  and 86.76 < Tutorial <= 94.345  and Assignment > 91.175 [Error: 1.47494]
+
+
+66.11 : (data 0.00% / prediction 1.30%) 40.625 < Midterm <= 74.06  and 31.875 < TakeHome <= 82.13  and Tutorial > 95.16 and 74.06 < Assignment <= 82.395  [Error: 2.94988]
+
+
+66.67 : (data 0.00% / prediction 1.30%) 40.625 < Midterm <= 74.06  and 31.875 < TakeHome <= 82.13  and 86.76 < Tutorial <= 95.16  and 74.06 < Assignment <= 82.395  [Error: 2.94988]
+
+
+67.22 : (data 0.00% / prediction 1.30%) 40.625 < Midterm <= 55.625  and 31.875 < TakeHome <= 100.83  and Tutorial > 102.38 and Assignment > 82.395 [Error: 11.0754]
+
+
+68.06 : (data 0.00% / prediction 1.30%) 90.935 < Midterm <= 95.31  and 89.615 < Tutorial <= 100.745  and Assignment > 93.16 [Error: 15.25861]
+
+
+68.33 : (data 0.00% / prediction 2.60%) 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83 
+    · 50.00%: 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and 46.3 < Tutorial <= 61.81  and Assignment <= 78.52 [Error: 16.0663]
+    · 50.00%: 65.31 < Midterm <= 74.06  and 98.33 < TakeHome <= 100.83  and Tutorial > 86.76 and Assignment > 91.175 [Error: 7.21249]
+
+
+72.22 : (data 2.60% / prediction 2.60%) 
+    · 50.00%: 40.625 < Midterm <= 74.06  and 82.13 < TakeHome <= 100.83  and Tutorial > 86.76 and 74.06 < Assignment <= 82.395  [Error: 17.1658]
+    · 50.00%: 90.935 < Midterm <= 95.31  and 96.055 < Tutorial <= 100.745  and Assignment <= 93.16 [Error: 8.79696]
+
+
+73.89 : (data 1.30% / prediction 1.30%) 90.935 < Midterm <= 95.31  and 89.615 < Tutorial <= 96.055  and Assignment <= 93.16 [Error: 8.79696]
+
+
+75.56 : (data 1.30% / prediction 1.30%) 62.5 < Midterm <= 65.31  and 31.875 < TakeHome <= 100.83  and Tutorial > 86.76 and Assignment > 82.395 [Error: 16.81528]
+
+
+77.5 : (data 1.30% / prediction 1.30%) 40.625 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and 75.42 < Tutorial <= 81.225  [Error: 52.33173]
+
+
+78.89 : (data 0.00% / prediction 2.60%) 
+    · 50.00%: 39.69 < Midterm <= 40.625  and 31.875 < TakeHome <= 100.83  [Error: 18.59719]
+    · 50.00%: 75.47 < Midterm <= 90  and 100.63 < Tutorial <= 108.145  [Error: 23.38832]
+
+
+80 : (data 0.00% / prediction 1.30%) 69.69 < Midterm <= 75.47  and 31.875 < TakeHome <= 100.83  and 84.92 < Tutorial <= 86.76  [Error: 46.82931]
+
+
+80.56 : (data 0.00% / prediction 1.30%) 39.69 < Midterm <= 75.47  and TakeHome > 100.83 and 95.865 < Tutorial <= 98.24  [Error: 13.1691]
+
+
+82.22 : (data 0.00% / prediction 1.30%) 75.47 < Midterm <= 90  and Tutorial <= 100.63 and Assignment <= 88.62 [Error: 10.42933]
+
+
+83.06 : (data 0.00% / prediction 1.30%) 39.69 < Midterm <= 75.47  and TakeHome > 100.83 and Tutorial > 98.24 [Error: 13.1691]
+
+
+83.33 : (data 0.00% / prediction 1.30%) 75.47 < Midterm <= 90  and Tutorial > 108.145 [Error: 23.38832]
+
+
+85 : (data 0.00% / prediction 1.30%) 75.47 < Midterm <= 90  and Tutorial <= 94.625 and Assignment > 88.62 and TakeHome > 100.37 [Error: 2.94988]
+
+
+85.56 : (data 0.00% / prediction 1.30%) 75.47 < Midterm <= 90  and 94.625 < Tutorial <= 100.63  and Assignment > 88.62 and TakeHome > 100.37 [Error: 2.94988]
+
+
+87.22 : (data 1.30% / prediction 1.30%) 90.935 < Midterm <= 95.31  and Tutorial > 103.425 [Error: 38.03236]
+
+
+88.89 : (data 0.00% / prediction 2.60%) 
+    · 50.00%: 40.625 < Midterm <= 69.69  and 31.875 < TakeHome <= 100.83  and 84.92 < Tutorial <= 86.76  [Error: 46.82931]
+    · 50.00%: Midterm > 95.31 and TakeHome <= 102.13 and Tutorial > 105.45 [Error: 25.04266]
+
+
+89.17 : (data 0.00% / prediction 1.30%) 90.935 < Midterm <= 95.31  and Tutorial <= 89.615 [Error: 37.51466]
+
+
+90 : (data 0.00% / prediction 2.60%) 75.47 < Midterm <= 90  and 89.18 < Tutorial <= 100.63  and Assignment > 88.62 and TakeHome <= 93.24 [Error: 2.30306]
+
+
+90.83 : (data 0.00% / prediction 1.30%) Midterm > 95.31 and TakeHome <= 102.13 and Tutorial <= 88.34 [Error: 21.96606]
+
+
+91.11 : (data 0.00% / prediction 1.30%) 75.47 < Midterm <= 90  and Tutorial <= 89.18 and Assignment > 88.62 and TakeHome <= 93.24 [Error: 3.25702]
+
+
+92.22 : (data 0.00% / prediction 1.30%) 75.47 < Midterm <= 90  and Tutorial <= 89.385 and Assignment > 88.62 and 93.24 < TakeHome <= 100.37  [Error: 2.94988]
+
+
+92.78 : (data 0.00% / prediction 1.30%) 75.47 < Midterm <= 90  and 89.385 < Tutorial <= 100.63  and Assignment > 88.62 and 93.24 < TakeHome <= 100.37  [Error: 2.94988]
+
+
+94.44 : (data 0.00% / prediction 1.30%) 90.935 < Midterm <= 95.31  and 100.745 < Tutorial <= 103.425  [Error: 38.03236]
+
+
+95 : (data 0.00% / prediction 1.30%) Midterm > 95.31 and TakeHome <= 102.13 and 88.34 < Tutorial <= 98.1  [Error: 21.96606]
+
+
+99.17 : (data 1.30% / prediction 1.30%) 90 < Midterm <= 90.935  and Tutorial <= 91.33 [Error: 10.21922]
+
+
+101.11 : (data 0.00% / prediction 1.30%) 90 < Midterm <= 90.935  and Tutorial > 91.33 [Error: 10.21922]
+
+
+102.22 : (data 0.00% / prediction 1.30%) 95.31 < Midterm <= 98.435  and TakeHome > 102.13 [Error: 18.16333]
+
+
+102.78 : (data 0.00% / prediction 1.30%) Midterm > 95.31 and TakeHome <= 102.13 and 98.1 < Tutorial <= 105.45  [Error: 30.82504]
+
+
+107.78 : (data 0.00% / prediction 1.30%) Midterm > 98.435 and TakeHome > 102.13 and Tutorial <= 98.3 [Error: 5.84708]
+
+
+108.89 : (data 0.00% / prediction 1.30%) Midterm > 98.435 and TakeHome > 102.13 and Tutorial > 98.3 [Error: 5.84708]

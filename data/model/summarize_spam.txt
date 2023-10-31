@@ -1,0 +1,65 @@
+Data distribution:
+    ham: 87.96% (577 instances)
+    spam: 12.04% (79 instances)
+
+
+Predicted distribution:
+    ham: 87.96% (577 instances)
+    spam: 12.04% (79 instances)
+
+
+Field importance:
+    1. Message: 100.00%
+
+
+Rules summary:
+
+ham : (data 87.96% / prediction 87.96%) 
+    · 89.77%: Message does not contain call or free or txt or text or currently or cost or 50 or rate or http or lost or station or girls [Confidence: 99.26%]
+    · 5.89%: Message contains call and Message does not contain mobile or claim or landline or text or free or private or message or 50 or booked or contact or luv or visit or miss [Confidence: 89.85%]
+    · 0.69%: Message contains text and time and Message does not contain call or free or txt [Confidence: 51.01%]
+    · 0.52%: Message contains free and ü and Message does not contain call [Confidence: 43.85%]
+    · 0.52%: Message contains call and message and Message does not contain mobile or claim or landline or text or free or private or please [Confidence: 20.77%; impurity: 0.44%]
+    · 0.35%: Message contains girls and Message does not contain call or free or txt or text or currently or cost or 50 or rate or http or lost or station or story [Confidence: 34.24%]
+    · 0.35%: Message contains text and phone and Message does not contain call or free or txt or time [Confidence: 34.24%]
+    · 0.17%: Message contains station and Message does not contain call or free or txt or text or currently or cost or 50 or rate or http or lost or news [Confidence: 20.65%]
+    · 0.17%: Message contains lost and thanks and Message does not contain call or free or txt or text or currently or cost or 50 or rate or http [Confidence: 20.65%]
+    · 0.17%: Message contains cost and month and Message does not contain call or free or txt or text or currently or apply [Confidence: 20.65%]
+    · 0.17%: Message contains cost and apply and Message does not contain call or free or txt or text or currently [Confidence: 20.65%]
+    · 0.17%: Message contains text and shit and Message does not contain call or free or txt or time or phone or yes or luv [Confidence: 20.65%]
+    · 0.17%: Message contains text and luv and Message does not contain call or free or txt or time or phone or yes [Confidence: 20.65%]
+    · 0.17%: Message contains text and yes and Message does not contain call or free or txt or time or phone [Confidence: 20.65%]
+    · 0.17%: Message contains txt and tomorrow and Message does not contain call or free [Confidence: 20.65%]
+    · 0.17%: Message contains free and hav and Message does not contain call or ü or ah or oso [Confidence: 20.65%]
+    · 0.17%: Message contains free and oso and Message does not contain call or ü or ah [Confidence: 20.65%]
+    · 0.17%: Message contains free and ah and Message does not contain call or ü [Confidence: 20.65%]
+
+
+spam : (data 12.04% / prediction 12.04%) 
+    · 12.66%: Message contains call and mobile [Confidence: 72.25%]
+    · 11.39%: Message contains call and claim and Message does not contain mobile [Confidence: 70.08%]
+    · 7.59%: Message contains text and Message does not contain call or free or txt or time or phone or yes or luv or shit [Confidence: 60.97%]
+    · 7.59%: Message contains txt and Message does not contain call or free or tomorrow [Confidence: 60.97%]
+    · 7.59%: Message contains free and txt and Message does not contain call or ü or ah or oso or hav [Confidence: 60.97%]
+    · 6.33%: Message contains free and Message does not contain call or ü or ah or oso or hav or txt or text or send [Confidence: 37.55%; impurity: 0.32%]
+    · 5.06%: Message contains free and text and Message does not contain call or ü or ah or oso or hav or txt [Confidence: 51.01%]
+    · 5.06%: Message contains call and text and Message does not contain mobile or claim or landline [Confidence: 51.01%]
+    · 5.06%: Message contains call and landline and Message does not contain mobile or claim [Confidence: 51.01%]
+    · 3.80%: Message contains call and free and Message does not contain mobile or claim or landline or text [Confidence: 43.85%]
+    · 2.53%: Message contains cost and Message does not contain call or free or txt or text or currently or apply or month [Confidence: 34.24%]
+    · 2.53%: Message contains currently and Message does not contain call or free or txt or text [Confidence: 34.24%]
+    · 2.53%: Message contains free and send and Message does not contain call or ü or ah or oso or hav or txt or text [Confidence: 34.24%]
+    · 2.53%: Message contains call and message and please and Message does not contain mobile or claim or landline or text or free or private [Confidence: 34.24%]
+    · 2.53%: Message contains call and private and Message does not contain mobile or claim or landline or text or free [Confidence: 34.24%]
+    · 1.27%: Message contains girls and story and Message does not contain call or free or txt or text or currently or cost or 50 or rate or http or lost or station [Confidence: 20.65%]
+    · 1.27%: Message contains station and news and Message does not contain call or free or txt or text or currently or cost or 50 or rate or http or lost [Confidence: 20.65%]
+    · 1.27%: Message contains lost and Message does not contain call or free or txt or text or currently or cost or 50 or rate or http or thanks [Confidence: 20.65%]
+    · 1.27%: Message contains http and Message does not contain call or free or txt or text or currently or cost or 50 or rate [Confidence: 20.65%]
+    · 1.27%: Message contains rate and Message does not contain call or free or txt or text or currently or cost or 50 [Confidence: 20.65%]
+    · 1.27%: Message contains 50 and Message does not contain call or free or txt or text or currently or cost [Confidence: 20.65%]
+    · 1.27%: Message contains call and miss and Message does not contain mobile or claim or landline or text or free or private or message or 50 or booked or contact or luv or visit [Confidence: 20.65%]
+    · 1.27%: Message contains call and visit and Message does not contain mobile or claim or landline or text or free or private or message or 50 or booked or contact or luv [Confidence: 20.65%]
+    · 1.27%: Message contains call and luv and Message does not contain mobile or claim or landline or text or free or private or message or 50 or booked or contact [Confidence: 20.65%]
+    · 1.27%: Message contains call and contact and Message does not contain mobile or claim or landline or text or free or private or message or 50 or booked [Confidence: 20.65%]
+    · 1.27%: Message contains call and booked and Message does not contain mobile or claim or landline or text or free or private or message or 50 [Confidence: 20.65%]
+    · 1.27%: Message contains call and 50 and Message does not contain mobile or claim or landline or text or free or private or message [Confidence: 20.65%]
